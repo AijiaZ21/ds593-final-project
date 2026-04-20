@@ -34,7 +34,7 @@ The goal is to determine:
 
 ### Tech Stack
 - Python
-- Large Language Model (e.g., OpenAI API)
+- Large Language Model
 - Embedding model for semantic retrieval
 
 ### Future Work
