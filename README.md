@@ -13,19 +13,13 @@ The system follows a basic RAG pipeline:
 2. Retrieve relevant chunks based on a user question
 3. Use a large language model (LLM) to generate answers based on retrieved content
 
-I will experiment with:
-- Different retrieval methods (keyword-based vs semantic search)
-- Different chunking strategies (small vs large chunks)
-
 ### Baseline
 As a baseline, I will compare the RAG system with direct prompting (no retrieval) to see if RAG improves answer quality.
 
 ### Evaluation
-I will create a small test set of around 50 questions based on the course materials.  
-The answers will be evaluated based on:
-- Accuracy
-- Relevance
-- Completeness
+I created a small test set of around 50 questions based on the course materials.
+The answers are evaluated based on accuracy using manual labeling (Yes / Partial / No).
+The RAG model achieves higher accuracy than the baseline (89% vs 53%), showing that retrieval improves answer quality.
 
 ### Expected Outcome
 The goal is to determine:
@@ -36,6 +30,13 @@ The goal is to determine:
 - Python
 - Large Language Model
 - Embedding model for semantic retrieval
+
+## How to Run
+1. Run dataset_chunks.ipynb to process the data  
+2. Run baseline.ipynb to generate baseline answers  
+3. Run RAG_pipeline.ipynb to generate RAG answers  
+4. Run evaluation.ipynb to generate results  
+5. Run evaluation_metrics_&_error_analysis.ipynb to compute metrics  
 
 ### Future Work
 - Improve retrieval quality
