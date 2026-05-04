@@ -37,8 +37,3 @@ The goal is to determine:
 3. Run RAG_pipeline.ipynb to generate RAG answers  
 4. Run evaluation.ipynb to generate results  
 5. Run evaluation_metrics_&_error_analysis.ipynb to compute metrics  
-
-### Future Work
-- Improve retrieval quality
-- Explore better evaluation methods
-- Expand dataset
