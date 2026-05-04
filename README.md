@@ -21,7 +21,7 @@ I will experiment with:
 As a baseline, I will compare the RAG system with direct prompting (no retrieval) to see if RAG improves answer quality.
 
 ### Evaluation
-I will create a small test set of around 10–20 questions based on the course materials.  
+I will create a small test set of around 50 questions based on the course materials.  
 The answers will be evaluated based on:
 - Accuracy
 - Relevance
