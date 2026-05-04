@@ -1,0 +1,51 @@
+question
+What is the bottleneck problem in encoder-decoder models?
+Why do fixed-size context vectors lose information?
+How does attention solve the bottleneck problem?
+What is the intuition behind attention?
+"What are Query, Key, and Value in attention?"
+How does attention compute similarity between tokens?
+What is the role of softmax in attention?
+Why do we scale by sqrt(d_k) in attention?
+What is the output of the attention mechanism?
+What is self-attention?
+How does self-attention help capture relationships in a sentence?
+What is multi-head attention and why is it useful?
+What are the main components of a transformer?
+What is positional encoding and why is it needed?
+Why does attention not capture word order?
+What is a residual connection?
+Why are residual connections important for training?
+What is layer normalization used for?
+What is a feed-forward network in transformers?
+What are the two sublayers in an encoder block?
+What are the three sublayers in a decoder block?
+What is masked self-attention?
+What is cross-attention?
+What is the difference between training and inference in transformers?
+What is pre-training in LLMs?
+What is the training objective of GPT?
+What is the training objective of BERT?
+What is perplexity?
+Why is large-scale data important for LLMs?
+What are common sources of training data?
+Why is data cleaning necessary in pre-training?
+What are scaling laws in LLMs?
+What are emergent abilities in large models?
+Why are modern LLMs mostly decoder-only?
+What is prompt engineering?
+Why is prompt engineering important?
+What is the difference between zero-shot and few-shot prompting?
+What is chain-of-thought prompting?
+When is chain-of-thought useful?
+What is prompt injection?
+What is the difference between direct and indirect prompt injection?
+Why is prompt injection hard to prevent?
+What are some strategies to defend against prompt injection?
+What is role separation in LLM systems?
+What is Retrieval-Augmented Generation (RAG)?
+Why is retrieval useful in RAG systems?
+What is the role of embeddings in retrieval?
+How does similarity search work in RAG?
+What is the difference between RAG and baseline LLM?
+Why can RAG outperform using full context alone?
